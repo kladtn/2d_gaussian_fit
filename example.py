@@ -18,8 +18,9 @@ example_data = io.imread('./example_data2.tif',1)
 
 
 # 
-params = gf.fitgaussian(example_data, circular=True, centered=True)
-fitted_gaussian = gf.gaussian(*params, circular=True)
+params = gf.fitgaussian(example_data, circular=False, centered=False)
+print params
+fitted_gaussian = gf.gaussian(*params)
 fig = plt.figure(facecolor='w')
 ax = fig.add_subplot(1, 1, 1)
 plt.imshow(example_data, interpolation='none')
