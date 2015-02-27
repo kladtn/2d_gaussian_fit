@@ -8,7 +8,8 @@ Scipy Cookbook and was modified to support more fit-parameters:
 Also, the full width half maximum (useful for circular fits) can be obtained.
 
 Created on Wed Aug 20 16:20:07 2014
-@author: Original Code found on the Scipy Cookbook, modified by Nikolay Kladt
+@author: Original Code found on the Scipy Cookbook, modified by 
+Nikolay Kladt, Image & Data Analyst, CECAD Imaging Facility
 """
 
 from scipy import optimize
